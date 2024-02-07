@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cars.DL\Cars.DL.csproj" />
+    <ProjectReference Include="..\Cars.Models\Cars.Models.csproj" />
+    <ProjectReference Include="..\Cars.Test\Cars.Test.csproj" />
+    <ProjectReference Include="..\Cars\Cars.csproj" />
+    <ProjectReference Include="..\Pharmacy.DL\Cars.DL.csproj" />
+    <ProjectReference Include="..\Pharmacy.Models\Cars.Models.csproj" />
+  </ItemGroup>
+
+</Project>

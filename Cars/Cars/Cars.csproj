@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cars.DL\Cars.DL.csproj" />
+    <ProjectReference Include="..\Cars.Models\Cars.Models.csproj" />
+    <ProjectReference Include="..\Cars.Test\Cars.Test.csproj" />
+    <ProjectReference Include="..\Pharmacy.BL\Cars.BL.csproj" />
+    <ProjectReference Include="..\Pharmacy.DL\Cars.DL.csproj" />
+	   <ProjectReference Include="..\Pharmacy.Models\Cars.Models.csproj" />	  
+  </ItemGroup>
+
+</Project>
